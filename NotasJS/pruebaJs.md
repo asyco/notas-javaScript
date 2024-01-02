@@ -48,7 +48,7 @@ console.log(dineroReal)
 #### ¿Qué es una función?
 Una función es un bloque de código que realiza una acción específica, puede o no recibir argumentos y entregar un resultado.
 #### ¿Cuándo me sirve usar una función en mi código?
-Respuesta: Cuando una tarea se realizará más de una vez se puede agrupar en una función o cuando es una acción particular que necesito aislar del resto del código. Cuando no quiero duplicar código
+Respuesta: Cuando una tarea se realizará más de una vez se puede agrupar en una función o cuando es una acción particular que necesito aislar del resto del código. Cuando no quiero duplicar código, cuando quiero modularizar mi código.
 #### ¿Cuál es la diferencia entre parámetros y argumentos de una función?
 Los parámetros de una función son aquellas variables que usamos para definir la función mientras que los argumentos son los valores reales que le pasamos a esta función cuando la invocamos, estos valores serán asignados
 a los parámetros de la función.
