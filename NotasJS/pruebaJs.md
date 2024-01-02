@@ -1,18 +1,20 @@
+# PRUEBA DE JAVASCRIPT
+
 ## Variables y operaciones
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 #### ¿Qué es una variable y para qué sirve?
 Respuesta: Una variable es una representación de un espacio en memoria que nos sirve para
 almacenar datos (información), también posee un nombre que describe lo que deseamos guardar en ella.
-¿Cuál es la diferencia entre declarar e inicializar una variable?
+#### ¿Cuál es la diferencia entre declarar e inicializar una variable?
 Respuesta: En el primer caso no específicamos que valor tiene o almacena esta variable, 
 solamente expresamos su existencia y cuando inicializamos, le estamos dando un valor inicial a
 la variable.
-¿Cuál es la diferencia entre sumar números y concatenar strings?
+#### ¿Cuál es la diferencia entre sumar números y concatenar strings?
 Respuesta: sumar números corresponde a una operación aritmética y concatenar strings es una operación
 entre cadenas de caracteres que consiste en generar una nueva cadena compuesta por dos o mas cadenas yuxtapuestas
-¿Cuál operador me permite sumar o concatenar?
+#### ¿Cuál operador me permite sumar o concatenar?
 Respuesta: El operador +
-2️⃣ Determina el nombre y tipo de dato para almacenar en variables la siguiente información:
+### 2️⃣ Determina el nombre y tipo de dato para almacenar en variables la siguiente información:
 Nombre
 nombre (string)
 Apellido
@@ -29,20 +31,20 @@ Dinero ahorrado
 dineroAhorrado (Number)
 Deudas
 deudas (Number)
-3️⃣ Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.
+### 3️⃣ Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.
 let nombre;
 let apellido;
 let dineroAhorrado;
 let deudas;
-4️⃣ Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:
+### 4️⃣ Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:
 Nombre completo (nombre y apellido)
 let nombreCompleto = nombre + ' ' + apellido;
 console.log(nombreCompleto)
 Dinero real (dinero ahorrado menos deudas)
 let dineroReal = dineroAhorrado - deudas
 console.log(dineroReal)
-Funciones
-1️⃣ Responde las siguientes preguntas en la sección de comentarios:
+## Funciones
+### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 ¿Qué es una función?
 Una función es un bloque de código que realiza una acción específica, puede o no recibir argumentos y entregar un resultado.
 ¿Cuándo me sirve usar una función en mi código?
