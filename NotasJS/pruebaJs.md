@@ -45,28 +45,29 @@ let dineroReal = dineroAhorrado - deudas
 console.log(dineroReal)
 ## Funciones
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
-¿Qué es una función?
+#### ¿Qué es una función?
 Una función es un bloque de código que realiza una acción específica, puede o no recibir argumentos y entregar un resultado.
-¿Cuándo me sirve usar una función en mi código?
+#### ¿Cuándo me sirve usar una función en mi código?
 Respuesta: Cuando una tarea se realizará más de una vez se puede agrupar en una función o cuando es una acción particular que necesito aislar del resto del código. Cuando no quiero duplicar código
-¿Cuál es la diferencia entre parámetros y argumentos de una función?
+#### ¿Cuál es la diferencia entre parámetros y argumentos de una función?
 Los parámetros de una función son aquellas variables que usamos para definir la función mientras que los argumentos son los valores reales que le pasamos a esta función cuando la invocamos, estos valores serán asignados
 a los parámetros de la función.
-2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
+### 2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
+```
 const name = "Juan David";
 const lastname = "Castro Gallego";
 const completeName = name + lastname;
 const nickname = "juandc";
 
 console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + nickname + ".");
-
+```
 Respuesta:
-
+```
 function presentacion (completeName, nickname) {
     console.log(`Mi nombre es ${completeName}, pero prefiero que me digas ${nickName}.`);
 
 }
-
+```
 Condicionales
 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 ¿Qué es un condicional?
